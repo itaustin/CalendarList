@@ -1,4 +1,6 @@
 apply plugin: 'com.android.application'
+apply plugin: 'com.github.dcendents.android-maven'    // 添加本行
+group='com.github.itaustin'    // 添加本行
 
 android {
     compileSdkVersion 28
@@ -28,4 +30,5 @@ dependencies {
     implementation 'com.timehop.stickyheadersrecyclerview:library:0.4.3'
 
     implementation 'androidx.recyclerview:recyclerview:1.0.0'
+
 }
